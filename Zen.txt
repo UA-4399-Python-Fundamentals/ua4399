@@ -1,2 +1,3 @@
 Sparse is better than dense.
 Readability counts
+If the implementation is easy to explain, it may be a good idea

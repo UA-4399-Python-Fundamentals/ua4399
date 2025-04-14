@@ -1,1 +1,1 @@
-print("test")
+print("Simple is better than complex.")

@@ -1,0 +1,6 @@
+Merge branch 'main' of https://github.com/UA-4399-Python-Fundamentals/ua4399
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.

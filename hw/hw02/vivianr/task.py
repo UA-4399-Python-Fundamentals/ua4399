@@ -1,1 +1,1 @@
-print("Simple is better than complex.")
+print(f"Simple is better than complex.")

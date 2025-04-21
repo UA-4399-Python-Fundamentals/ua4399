@@ -1,2 +1,3 @@
 Now is better than never.
 Errors should never pass silently
+Beautiful is better than ugly.

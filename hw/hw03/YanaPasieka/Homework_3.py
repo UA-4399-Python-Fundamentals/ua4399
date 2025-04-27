@@ -1,0 +1,50 @@
+#1
+text = """
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+"""
+
+#Підрахунок кількості слів: better,never,is
+print(f"Count'better' == {text.count('better')}")
+print(f"Count 'never' == {text.count('never')}")
+print(f"Count 'is' == {text.count('is')}")
+
+#Верхній регістр тексту
+text_upper = text.upper()
+print("\nUppercase:\n", text_upper)
+
+#Заміна i на &
+text_replaced = text.replace("i", "&")
+print("\nReplaced 'i:\n", text_replaced)
+
+#2
+number = int(input("Four-digit number: "))
+
+#Добуток цифр
+digits = [int(d) for d in str(number)]
+product = 1
+for d in digits:
+    product *= d
+print("Product of digits: ", product)
+
+#Зворотний порядок
+reversed_number = int(str(number)[::-1])
+print("Reversed number: ", reversed_number)
+
+#У порядку зростання
+sorted_number = sorted(digits)
+print("Sorted digits: ", sorted_number)
+
+#3
+#Заміна двох значень
+a = int(input("Enter the first number (a): "))
+b = int(input("Enter the second number (b): "))
+
+#Поміняємо значення місцями без використання третьої змінної
+a, b = b, a
+
+print(f"After swapping: a = {a}, b = {b}")
+
+

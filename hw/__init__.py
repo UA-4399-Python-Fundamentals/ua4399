@@ -204,7 +204,7 @@ if __name__ == "__main__":
         "shyma27": "Anton Shymko",
         "Yaroslaw-L": "Yaroslav Lukovnykov",
         "ubodn": "Уляна Боднарук",
-        "vivianr": "Viktoriia Remeniuk",
+        "VivianRe": "Viktoriia Remeniuk",
         "Grytsun": "Maryna Grytsun",
         "Olya945": "Olya Petrenko",
         "promm-dd": "Dima Dridze",
@@ -219,11 +219,22 @@ if __name__ == "__main__":
         "Mariia77": "Malyhina Mariia ",
         "dimas1qwerty": "Dima Klymchuk ",
         "i-yevtushenko": "Ihor Yevtushenko ",
-        "RichterZEA": "Yevhen Zaichenko"
+        "RichterZEA": "Yevhen Zaichenko",
+        "kinash20kk1": "Kinash Roman",
+        "YanaBoyko1": "Yana Boiko",
+        "Sp1ker2": "Bogdan Prihodko",
+        "YanaPasieka": "Yana Pasieka",
+        "Hooligan199": "Pustelnyk Davyd",
+        "U01FC": "Ivan Vasylkiv",
+        "NataliMadriga": "Nataly Madryha",
+        "KrasinV": "Viacheslav Krasin",
+        "VladaShcherbyna": "Vlada Shcherbyna",
+        "theatra": "Lera Pridorohina",
     }
+    
     dir_paths = get_directory_paths(students)
     create_directories_from_paths(dir_paths)
     non_init_files_present = check_for_non_init_files(dir_paths)
     print_homework_status(non_init_files_present)
-    markdown_table = generate_markdown_table(non_init_files_present)
-    print(markdown_table)
+    # markdown_table = generate_markdown_table(non_init_files_present)
+    # print(markdown_table)

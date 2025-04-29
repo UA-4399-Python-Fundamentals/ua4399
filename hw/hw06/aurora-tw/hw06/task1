@@ -1,0 +1,13 @@
+even = []
+odd = []
+not_even_odd = []
+for x in range(0,10):
+    y = str(x)
+    if x%2==0:
+        even.append(y)
+    elif x%3==0:
+        odd.append(y)
+    else:
+        not_even_odd.append(y)
+print(f"numbers divisible by 2 = {','.join(even)}; numbers divisible by 3 = {','.join(odd)}; other numbers = {','.join(not_even_odd)}")
+

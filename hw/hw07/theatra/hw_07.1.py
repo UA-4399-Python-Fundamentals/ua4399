@@ -52,10 +52,11 @@ calculate_area()
 
 # Task 3
 def calculate_number_of_elements(str):
-    count = ()
+    result = {}
     for letter in str:
         count = str.count(letter)
-        print(f"{letter}: {count}")
+        result.update({letter: count})
+    print(result)
 
 
 calculate_number_of_elements("hello")

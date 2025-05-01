@@ -228,6 +228,8 @@ if __name__ == "__main__":
         "U01FC": "Ivan Vasylkiv",
         "NataliMadriga": "Nataly Madryha",
         "KrasinV": "Viacheslav Krasin",
+        "VladaShcherbyna": "Vlada Shcherbyna",
+        "theatra": "Lera Pridorohina",
     }
     
     dir_paths = get_directory_paths(students)

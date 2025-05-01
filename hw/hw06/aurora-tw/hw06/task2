@@ -1,0 +1,6 @@
+login = ""
+while login != "First":
+    login = input("Enter login ")
+    if login!= "First":
+        print("Incorrect login")
+print("Welcome!")

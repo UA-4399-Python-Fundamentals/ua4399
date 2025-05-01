@@ -357,3 +357,5 @@
 
 # l.sort(key= lambda obj: -obj if type(obj) in  [int, float] else -len(obj))
 # print(l)
+
+text = "lesson07 text"

@@ -34,7 +34,7 @@ ball_direction = (1, 1)  # Initial direction of the ball
 ball_radius = 10
 ball_color = Colors.RED
 ball_rect = Rect(ball[0], ball[1], ball_radius * 2, ball_radius * 2)
-ball_image = pygame.image.load("lessons\\lesson09\\ball.png")
+ball_image = pygame.image.load("/Users/aurora/Desktop/py2025/ua4399/lessons/lesson09/ball.png")
 # 
 
 start_time = datetime.datetime.now()

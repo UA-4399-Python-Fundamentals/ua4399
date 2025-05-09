@@ -1,5 +1,4 @@
-    #task 1
-
+2
 a = float(input("Введіть перше число: "))
 b = float(input("Введіть друге число: "))
 
@@ -19,4 +18,3 @@ def largest_number(a, b):
 
 result = largest_number(a, b)
 print("Результат:", result)
-    

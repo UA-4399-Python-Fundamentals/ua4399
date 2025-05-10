@@ -1,0 +1,7 @@
+celsium = round(float(input("Enter the temperature: ")), 2)
+
+if celsium <= -273.15:
+    print("Error: Temperature below absolute zero (-273.15°C)")
+else:
+    fahr = round(((celsium * 9/5) + 32), 2)
+    print(f"{celsium}°C is {fahr}°F")

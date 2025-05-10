@@ -1,0 +1,2 @@
+Zen of Python
+Python of Zen

@@ -40,3 +40,23 @@ for key, val in d.items():
     print(f"{key} = {val} .")
 for key in d.keys():
     print(f"student {key} = {d[key]}")
+
+
+list1 = ['xyz', 'zara', 'PYnative']
+print (max(list1))
+
+
+
+numbers = list(range(1, 11))
+for index, values in enumerate(numbers):
+    numbers[index] += index
+print(numbers)
+
+my_list =  [1, 2, 3, 4, 5, 5, 5,"str"]
+print(set(my_list))
+
+for i in my_list:
+    if type(i) is str:
+        my_list.remove(i)
+
+print(set(my_list))

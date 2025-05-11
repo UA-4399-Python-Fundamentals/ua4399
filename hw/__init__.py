@@ -229,6 +229,8 @@ if __name__ == "__main__":
         "NataliMadriga": "Nataly Madryha",
         "KrasinV": "Viacheslav Krasin",
         "VladaShcherbyna": "Vlada Shcherbyna",
+        "theatra": "Lera Pridorohina",
+        "Andrii1036": "Andrii Kovalyk",
     }
     
     dir_paths = get_directory_paths(students)
@@ -236,4 +238,6 @@ if __name__ == "__main__":
     non_init_files_present = check_for_non_init_files(dir_paths)
     print_homework_status(non_init_files_present)
     # markdown_table = generate_markdown_table(non_init_files_present)
-    # print(markdown_table)
+    # with open("homework_status.md", "w", encoding="utf-8") as f:
+    #     f.write(markdown_table)
+    # logging.info("Markdown table saved to homework_status.md")

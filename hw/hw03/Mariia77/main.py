@@ -1,4 +1,6 @@
 #task1
+from sympy.codegen.ast import continue_
+
 philosophy = "I have never seen a place that is so beautiful. It's better for me i, int, i"
 print('Number of occurrence of better:', philosophy.count('better'))
 print('Number of occurrence of never:', philosophy.count('never'))
@@ -32,3 +34,22 @@ var2 = "World"
 var1, var2 = var2, var1
 print(var1)
 print(var2)
+
+
+for i in range(101):
+    if i % 2 == 0:
+        print(i)
+
+for i in range(101):
+    if i % 2 == 0:
+        continue
+    print(i)
+
+list = [1,2,3,4,5]
+for i in  list:
+    if i % 2 == 0:
+        break
+    print(i)
+
+
+

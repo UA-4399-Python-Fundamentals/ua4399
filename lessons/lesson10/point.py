@@ -56,3 +56,5 @@ if __name__ == "__main__":
     l.sort()
     print(l)
     print(l[0].p2p(l[-1]))
+
+

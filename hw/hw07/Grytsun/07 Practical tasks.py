@@ -5,7 +5,7 @@ def largest_number(num1, num2):
     else:
         return num2
         
-#print(largest_number(30, 40)) 
+print(largest_number(30, 40)) 
 
 # Task 2
 import math

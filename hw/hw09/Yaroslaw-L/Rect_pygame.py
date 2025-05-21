@@ -43,11 +43,10 @@ while run:
     if keys[pygame.K_DOWN]:
         COORD_Y = COORD_Y+DELTA_STEP
 
-
+    shape = pygame.Rect(COORD_X, COORD_Y, WIDTH_RECTANGLE, HEIGHT_RECTANGLE)
+    screen_shape = pygame.Rect(0, 0, WIDTH_DISPLAY, HEIGHT_DISPLAY)
+    shape.clamp_ip(screen_shape)
     gameDisplay.fill(BLACK_COLOR) 
-    pygame.draw.rect(gameDisplay, RED_COLOR, [COORD_X, 
-                                              COORD_Y, 
-                                              WIDTH_RECTANGLE, 
-                                              HEIGHT_RECTANGLE])
+    pygame.draw.rect(gameDisplay, RED_COLOR, shape)
     pygame.display.update()
     clock.tick(FPS)

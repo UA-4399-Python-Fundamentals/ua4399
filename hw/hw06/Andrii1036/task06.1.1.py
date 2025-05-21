@@ -32,7 +32,3 @@ specific_numbers(numbers_range, "not")
 specific_numbers(numbers_range, 5)
 specific_numbers(numbers_range, "hello")
         
-        
-    
-
-

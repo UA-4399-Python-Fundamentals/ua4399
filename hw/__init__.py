@@ -26,7 +26,7 @@ import re
 import os
 import logging
 from typing import List, Dict
-
+TASK_COUNT = 12
 # Set up logging configuration
 logging.basicConfig(
     level=logging.INFO, format="%(levelname)s - %(funcName)s - %(message)s"
@@ -66,7 +66,7 @@ def get_directory_paths(
     directory_paths = {}
     for nickname, name in nicknames.items():
         user_paths = []
-        for hw_num in range(2, 16):
+        for hw_num in range(2, TASK_COUNT):
             hw_dir = os.path.join(base_dir, f"hw{hw_num:02d}")
             user_dir = os.path.join(hw_dir, nickname)
             absolute_user_dir = os.path.abspath(user_dir)

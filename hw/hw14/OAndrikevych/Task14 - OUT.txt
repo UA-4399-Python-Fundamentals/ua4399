@@ -1,0 +1,60 @@
+OUT
+
+C:\Users\oandr\AppData\Local\Programs\Python\Python312\python.exe "C:\Users\oandr\PycharmProjects\PythonProject\SoftServe\Task-14 v2\Task_14_v2.py" 
+......FFFF..
+======================================================================
+FAIL: test_get_symbol_position_found (__main__.TestFunctionsWithErrors.test_get_symbol_position_found)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\oandr\PycharmProjects\PythonProject\SoftServe\Task-14 v2\Task_14_v2.py", line 33, in test_get_symbol_position_found
+    self.assertEqual(actual, expected)
+AssertionError: 1 != 2
+
+======================================================================
+FAIL: test_get_symbol_position_invalid_symbol (__main__.TestFunctionsWithErrors.test_get_symbol_position_invalid_symbol)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\oandr\PycharmProjects\PythonProject\SoftServe\Task-14 v2\Task_14_v2.py", line 43, in test_get_symbol_position_invalid_symbol
+    self.assertEqual(actual, expected)
+AssertionError: -1 != 'Error! Symbol can be string with only one letter'
+
+======================================================================
+FAIL: test_get_symbol_position_not_found (__main__.TestFunctionsWithErrors.test_get_symbol_position_not_found)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\oandr\PycharmProjects\PythonProject\SoftServe\Task-14 v2\Task_14_v2.py", line 38, in test_get_symbol_position_not_found
+    self.assertEqual(actual, expected)
+AssertionError: -1 != 'Not found'
+
+======================================================================
+FAIL: test_greeting_by_name (__main__.TestFunctionsWithErrors.test_greeting_by_name)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\oandr\PycharmProjects\PythonProject\SoftServe\Task-14 v2\Task_14_v2.py", line 27, in test_greeting_by_name
+    self.assertEqual(actual, expected)
+AssertionError: 'Hello name!' != 'Hello Alex!'
+- Hello name!
+?       ^^^
++ Hello Alex!
+?       ^^ +
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.001s
+
+FAILED (failures=4)
+Test test_get_symbol_position_found (__main__.TestFunctions.test_get_symbol_position_found) is Passed
+Test test_get_symbol_position_invalid_symbol (__main__.TestFunctions.test_get_symbol_position_invalid_symbol) is Passed
+Test test_get_symbol_position_not_found (__main__.TestFunctions.test_get_symbol_position_not_found) is Passed
+Test test_greeting_by_name (__main__.TestFunctions.test_greeting_by_name) is Passed
+Test test_merge (__main__.TestFunctions.test_merge) is Passed
+Test test_merge_dir_unchanged (__main__.TestFunctions.test_merge_dir_unchanged) is Passed
+Test test_get_symbol_position_found (__main__.TestFunctionsWithErrors.test_get_symbol_position_found) is Failed
+Test test_get_symbol_position_invalid_symbol (__main__.TestFunctionsWithErrors.test_get_symbol_position_invalid_symbol) is Failed
+Test test_get_symbol_position_not_found (__main__.TestFunctionsWithErrors.test_get_symbol_position_not_found) is Failed
+Test test_greeting_by_name (__main__.TestFunctionsWithErrors.test_greeting_by_name) is Failed
+Test test_merge (__main__.TestFunctionsWithErrors.test_merge) is Passed
+Test test_merge_dir_unchanged (__main__.TestFunctionsWithErrors.test_merge_dir_unchanged) is Passed
+
+Process finished with exit code 0
+

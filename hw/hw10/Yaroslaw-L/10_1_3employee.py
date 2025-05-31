@@ -8,8 +8,8 @@ class Employee:
     def disp_particular(self):
         print(f"Name: {self.name_emp}, Salary: {self.salary}")
     @classmethod   
-    def display_all(all):
-        print(f"Number of employees: {all.total_emp}")
+    def display_all(cls):
+        print(f"Number of employees: {cls.total_emp}")
 
 employees = [Employee("Jane", 1200),
              Employee("Boby", 1500)]
